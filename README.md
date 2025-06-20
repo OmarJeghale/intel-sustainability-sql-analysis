@@ -40,7 +40,7 @@ Using SQL, I queried over **600,000 records** to evaluate repurposing effectiven
 
 ## 📂 Full Report
 
-📄 [Download full project PDF](./PortfolioProjectIntel_OmarJeghalef.pdf)
+📄 [Download full project PDF](./_Intel Sustainability SQL Analysis.pdf)
 
 Includes all queries, analysis write-ups, and final recommendations.
 
