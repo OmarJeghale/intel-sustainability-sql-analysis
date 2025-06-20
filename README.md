@@ -2,44 +2,68 @@
 
 ## 📘 Project Overview
 
-This project analyzes Intel's 2024 device repurposing program to uncover how different device types, ages, and regions contribute to energy savings and CO₂ reduction.
+This project analyzes Intel's 2024 device repurposing program to uncover how different device types, device ages, and global regions contribute to energy savings and CO₂ reduction.
 
-The goal: Provide actionable, data-driven recommendations to optimize Intel's sustainability efforts.
+Using SQL, I queried over **600,000 records** to evaluate repurposing effectiveness and delivered **data-driven recommendations** to help Intel maximize the environmental impact of their sustainability initiatives.
 
 ---
 
 ## 📊 Key Insights
 
-- Over **600,000** devices repurposed
-- **Older devices** save the most energy and CO₂ per unit
-- **Asia** yields the highest CO₂ savings due to carbon intensity
-- Recommended: Prioritize **older devices in high-impact regions**
+- ✅ **601,740 devices** were repurposed in 2024
+- 💡 **Older devices** save the most energy and CO₂ per unit
+- 🌏 **Asia** provides the highest CO₂ reduction due to more carbon-intensive electricity
+- 📉 **Newer devices** are repurposed more frequently but have lower per-unit impact
 
 ---
 
 ## 🛠️ Tools Used
 
-- SQL (joins, CTEs, CASE, GROUP BY, aggregate functions)
-- Intel dataset via Global Tech Accelerator (mock data)
+- SQL (joins, CTEs, CASE WHEN, GROUP BY, aggregation)
+- Datasets: `intel.device_data`, `intel.impact_data` (mocked Intel data)
 
 ---
 
-## 🔍 SQL Files
+## 🔍 SQL Queries
 
-- `01_joining_data.sql`: Combined device and impact tables
-- `02_device_age_bucket.sql`: Categorized devices by age
-- `03_summary_insights.sql`: Total energy and CO₂ savings
-- `04_device_type_analysis.sql`: Laptop vs Desktop impact
-- `05_region_analysis.sql`: Impact across global regions
+| File | Description |
+|------|-------------|
+| `01_join_all_data.sql` | Join device and impact data tables |
+| `02_add_device_age.sql` | Calculate device age (2024 - model_year) |
+| `03_device_age_bucket.sql` | Bucket devices by age: newer, mid-age, older |
+| `04_summary_stats.sql` | Total devices, average energy savings, total CO₂ saved |
+| `05_device_type_impact.sql` | Analyze environmental impact by device type |
+| `06_device_age_bucket_impact.sql` | Impact analysis by device age group |
+| `07_region_impact.sql` | Energy and CO₂ impact by region |
 
 ---
 
 ## 📂 Full Report
 
-👉 [View Full PDF Report](./PortfolioProjectIntel_OmarJeghalef.pdf)
+📄 [Download full project PDF](./PortfolioProjectIntel_OmarJeghalef.pdf)
+
+Includes all queries, analysis write-ups, and final recommendations.
 
 ---
 
-## 🧠 Recommendation
+## 📌 Final Recommendation
 
-Intel should focus on repurposing **older devices** in **regions with high carbon intensity**, like Asia, to maximize sustainability returns. A scoring system could further improve prioritization based on device age and impact potential.
+Intel should prioritize repurposing **older devices (6+ years)** and target **high carbon-intensity regions** (like Asia) to maximize sustainability outcomes.
+
+A proposed solution is a **scoring system** that ranks devices based on age and regional CO₂ offset potential, helping Intel allocate repurposing resources for maximum environmental benefit.
+
+---
+
+## 🤖 ChatGPT Collaboration
+
+Some of the insights and strategies in this project were strengthened through guided brainstorming with ChatGPT. It helped develop the scoring system idea and provided real-world CO₂ comparisons (e.g., car emissions, household energy usage) to make the impact more relatable.
+
+---
+
+## 🔗 Connect with Me
+
+If you're interested in sustainability, data analytics, or SQL projects, feel free to connect or reach out:
+
+**👤 Omar Jeghalef**  
+📬 [LinkedIn](https://linkedin.com/in/your-profile-link)  
+💻 [GitHub](https://github.com/OmarJeghale)
