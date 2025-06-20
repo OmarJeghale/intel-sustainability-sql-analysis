@@ -40,7 +40,7 @@ Using SQL, I queried over **600,000 records** to evaluate repurposing effectiven
 
 ## 📂 Full Report
 
-📄 [Download full project PDF](../Intel_Sustainability_SQL_Analysis.pdf)
+📄 [Download full project PDF](https://github.com/OmarJeghale/intel-sustainability-sql-analysis/blob/main/Intel_Sustainability_SQL_Analysis.pdf)
 
 Includes all queries, analysis write-ups, and final recommendations.
 
@@ -65,5 +65,5 @@ Some of the insights and strategies in this project were strengthened through gu
 If you're interested in sustainability, data analytics, or SQL projects, feel free to connect or reach out:
 
 **👤 Omar Jeghalef**  
-📬 [LinkedIn](https://linkedin.com/in/your-profile-link)  
+📬 [LinkedIn](https://linkedin.com/in/omar-jeghalef)  
 💻 [GitHub](https://github.com/OmarJeghale)
