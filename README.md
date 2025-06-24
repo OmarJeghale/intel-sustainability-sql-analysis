@@ -62,8 +62,6 @@ Some of the insights and strategies in this project were strengthened through gu
 
 ## 🔗 Connect with Me
 
-If you're interested in sustainability, data analytics, or SQL projects, feel free to connect or reach out:
-
 **👤 Omar Jeghalef**  
 📬 [LinkedIn](https://linkedin.com/in/omar-jeghalef)  
 💻 [GitHub](https://github.com/OmarJeghale)
