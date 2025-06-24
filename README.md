@@ -60,7 +60,7 @@ Some of the insights and strategies in this project were strengthened through gu
 
 ---
 
-## 🤝 Connect with Me
+## 🔗 Connect with Me
 
 **👤 Omar Jeghalef**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-jeghalef/)  
